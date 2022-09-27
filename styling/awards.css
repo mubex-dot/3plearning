@@ -1,39 +1,55 @@
 /* ====================TYPOGRAPHY==================== */
 
-html{
-    font-size: 16px;
+html {
+  font-size: 16px;
 }
-body{
-    margin: 0;
-    font-family: 'Montserrat', sans-serif;
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
 }
-ul{
-    list-style-type: none;
+ul {
+  list-style-type: none;
 }
-li{
-    margin-left: 0;
+li {
+  margin-left: 0;
 }
-a{
-    color: #000000;
+a {
+  color: #000000;
+  text-decoration: none;
 }
-header{
-    display: flex;
-    /* justify-content: space-between; */
+header {
+  display: flex;
+  /* justify-content: space-between; */
 }
 
 /* ====================CLASSES==================== */
 
-.container{
-    margin: 1.1em 10.1em;
+.container {
+  margin: 1.1em 10.1em;
 }
-.navlogo img{
-    width: 10.66em;
-    height: 2.59em;
+.navlogo img {
+  width: 10.66em;
+  height: 2.59em;
+  margin-right: 0.3em;
 }
-header .navdetails ul{
-    display: flex;
-    font-size: 0.8em;
-font-weight: bold;
+header ul {
+  display: flex;
+  font-size: 0.85em;
+  font-weight: bold;
 }
-header .navdetails li{
-margin-left: 2em;}
+header li {
+  margin-left: 2em;
+}
+header a {
+  margin-right: 0.4em;
+}
+header .navdetails {
+  margin-right: 2.5em;
+}
+header .navothers {
+  margin-left: 2.5em;
+}
+ul li a img {
+  height: 0.85em;
+  width: 0.85em;
+}
